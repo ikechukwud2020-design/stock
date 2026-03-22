@@ -1,0 +1,355 @@
+.container{
+    height: 500px;
+    background-color: blanchedalmond;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* background-color: cadetblue; */
+}
+.icons img{
+    width: 20px;
+}
+.icons a{
+    /* margin: 10px; */
+    padding: 20px;
+    
+}
+.nav a{
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+.center{
+    /* background-color: chartreuse; */
+    height: 320px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.right{
+    width: 50%;
+    /* border: 1px solid black; */
+    padding-bottom: 50px;
+    
+}
+.left button{
+    padding: 10px 25px;
+    border-radius: 2px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.right img{
+    height: 390px; 
+}
+.Products{
+    height: 50px;
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 40px;
+
+    
+}
+.goods{
+    height: 500px;
+    /* background-color: rgba(0, 0, 0, 0.226); */
+}
+.words{
+    text-align: center;
+
+}
+.bags{
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+.bag1{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.bag2{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.bag3{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.bag4{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.bag1 button{
+    position: relative ;
+    right: 100px;
+    background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.bag2 button{
+    position: relative ;
+    right: 100px;
+    background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.bag3 button{
+    position: relative ;
+    right: 100px;
+    background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.bag4 button{
+    position: relative ;
+    right: 100px;
+     background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.bag1 img{
+    width: 200px;
+    
+}
+.bag2 img{
+    width: 200px;
+    
+}
+.bag3 img{
+    width: 200px;
+    
+}
+.bag4 img{
+    width: 200px;
+    
+}
+.view button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.view{
+    text-align: center;
+    padding-top: 20px;
+}
+.bag1 h4{
+    padding-top: 20px;
+}
+.bag2 h4{
+    padding-top: 20px;
+}
+.bag3 h4{
+    padding-top: 20px;
+}
+.bag4 h4{
+    padding-top: 20px;
+}
+span{
+    text-decoration: line-through;
+}
+.bag1 img:hover{
+    transform: scale(1.2);
+}
+.bag2 img:hover{
+    transform: scale(1.2);
+}
+.bag3 img:hover{
+    transform: scale(1.2);
+}
+.bag4 img:hover{
+    transform: scale(1.2);
+}
+.accessories{
+    height: 300px;
+    display: flex;
+    /* background-color: blueviolet; */
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+.handbag{
+    width: 20%;
+    height: 250px;
+    background-color: rgb(172, 219, 221);
+    padding-left: 250px;
+    background-image: url(images/istockphoto-1041885912-612x612.webp);
+    background-size: cover;
+    text-align: right;
+}
+.watches{
+    width: 20%;
+    height: 250px;
+    background-color: rgb(241, 207, 241);
+    padding-right: 250px;
+    background-image: url(images/580b585b2edbce24c47b27b4.png);
+    background-size: cover;
+    text-align: right;
+}
+.handbag h1{
+    padding-right: 50px;
+}
+.handbag h4{
+    padding-right: 80px;
+}
+.handbag h5{
+    padding-right: 80px;
+}
+.writing{
+    text-align: center;
+}
+.next{
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+.next1{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.next2{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.next3{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.next4{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(231, 237, 240);
+}
+.next1 button{
+    position: relative ;
+    right: 100px;
+    background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.next2 button{
+    position: relative ;
+    right: 100px;
+    background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.next3 button{
+    position: relative ;
+    right: 100px;
+    background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.next4 button{
+    position: relative ;
+    right: 100px;
+     background-color: blue;
+    /* border: none; */
+    color: white;
+}
+.next1 img{
+    width: 200px;
+    
+}
+.next2 img{
+    width: 200px;
+    
+}
+.next3 img{
+    width: 200px;
+    
+}
+.next4 img{
+    width: 200px;
+}
+.next1 h4{
+    padding-top: 20px;
+}
+.next2 h4{
+    padding-top: 20px;
+}
+.next3 h4{
+    padding-top: 20px;
+}
+.next4 h4{
+    padding-top: 20px;
+}
+span{
+    text-decoration: line-through;
+}
+.next1 img:hover{
+    transform: scale(1.2);
+}
+.next2 img:hover{
+    transform: scale(1.2);
+}
+.next3 img:hover{
+    transform: scale(1.2);
+}
+.next4 img:hover{
+    transform: scale(1.2);
+}
+.search{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+/* .signup{
+    width: 650px;
+    background-color: rgb(245, 237, 237);
+}
+.shipping{
+    width: 450px;
+    background-color: black;
+}
+ .watches h5{
+    padding-left: 150px;
+} */
+/* .maps{
+    height: 100px;
+    margin-top: 150px;
+    background-color: tomato;
+    width: 100%;
+    padding-left: 100px;
+} 
+.footer{
+    margin-top: 300px;
+    text-align: center;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.466);
+ } */
+ 
